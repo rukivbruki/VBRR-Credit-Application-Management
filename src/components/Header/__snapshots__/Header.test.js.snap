@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue render renders correctly 1`] = `
+<div>
+  <el-header>
+    <div
+      style="display: flex; flex-direction: row; justify-content: space-between;"
+    >
+      <img
+        alt=""
+        class="el-header-logo"
+        src=""
+      />
+      <div
+        style="padding-right: 10px;"
+      >
+        <!--          &lt;el-button plain class="el-header-button"&gt;Главное меню&lt;/el-button&gt;-->
+        <!--          &lt;el-button plain&gt;Войти&lt;/el-button&gt;-->
+        <el-link
+          class="el-header-link"
+        >
+          Главное меню
+        </el-link>
+        <el-link
+          class="el-header-link"
+        >
+          <img
+            alt=""
+            class="el-header-exit-logo"
+            src=""
+          />
+          Войти
+        </el-link>
+      </div>
+    </div>
+  </el-header>
+</div>
+`;

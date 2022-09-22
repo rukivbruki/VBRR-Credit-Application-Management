@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+.el-table .cell {
+  word-break: normal;
+  padding-left: 20px;
+}
+
+.el-link.el-link--default {
+  line-height: 1;
+}
+
+.el-form-item__label {
+  text-align: left;
+}
+
+.el-card__body {
+  padding: 0;
+}
+
+.el-step__main {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.el-divider--horizontal {
+  height: 3px;
+  margin: 45px 0;
+}
+
+.buttonsContainer {
+  margin-top: 25px;
+}
+
+.el-divider__text {
+  display: inline-flex;
+}
+
+.customer-info-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+  background-color: var(--el-disabled-border-base);
+}
+
+.el-step__title.is-success {
+  color: rgb(150, 107, 214);
+}
+
+.el-step__head.is-success {
+  color: rgb(150, 107, 214);
+}
+
+.el-step__icon.is-success {
+  border-color: rgb(150, 107, 214);
+  background-color: rgb(150, 107, 214);
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: rgb(150, 107, 214);
+}
+
+.el-step__icon.is-text {
+  border-color: rgb(150, 107, 214);
+}
+
+.is-wait .el-step__icon.is-text {
+  border-color: #c0c4cc;
+}
+
+.el-tag.el-tag--success {
+  background-color: rgba(202, 173, 245, 0.55);
+  border-color: #e1f3d8;
+  color: #4d2982;
+}
+
+.el-input-number__increase,
+.el-input-number__decrease {
+  background-color: rgb(150, 107, 214);
+  color: white;
+}
+
+.finalCalculations {
+  border: 2px solid rgb(150, 107, 214);
+  border-radius: 3px;
+}

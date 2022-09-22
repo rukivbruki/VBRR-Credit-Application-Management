@@ -1,0 +1,7 @@
+{
+  "getPersonList": "http://192.168.10.48:7777/rest-interlayer/person/list",
+  "getPersonInfo": "http://192.168.10.48:7777/rest-interlayer/person",
+  "getDictionary": "http://192.168.10.48:7777/rest-interlayer/dictionary/",
+  "updatePerson": "http://192.168.10.48:7777/rest-interlayer/person/",
+  "getCompanyList": "http://192.168.10.48:7777/rest-interlayer/company/list"
+}

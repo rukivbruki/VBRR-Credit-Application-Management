@@ -1,0 +1,23 @@
+.el-checkbox__label {
+  white-space: pre-wrap;
+}
+
+.negative-info-checkbox .el-checkbox__inner {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 492px) {
+  .el-checkbox__input {
+    padding-bottom: 5px;
+  }
+}
+
+.el-step__title {
+  line-height: 1.3;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.el-checkbox__label {
+  font-size: 15px;
+}

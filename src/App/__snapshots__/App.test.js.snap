@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue render renders correctly 1`] = `
+<div
+  class="common-layout"
+>
+  <el-container
+    class="is-vertical"
+  >
+    <div>
+      <el-header>
+        Header
+      </el-header>
+    </div>
+    <el-container>
+      <el-aside>
+        <el-tabs
+          stretch="true"
+          style="height: 100%;"
+          tab-position="left"
+          type="border-card"
+        >
+          <el-tab-pane
+            label="Пользователи"
+          >
+            Информация о пользователях 
+          </el-tab-pane>
+          <el-tab-pane
+            label="Файлы"
+          >
+            Файлы и данные
+          </el-tab-pane>
+          <el-tab-pane
+            label="Обслуживание"
+          >
+            Работа с клиентами
+          </el-tab-pane>
+          <el-tab-pane
+            label="Кредитование"
+          >
+            Оформление заявок на кредитование 
+          </el-tab-pane>
+        </el-tabs>
+      </el-aside>
+      <el-main>
+        
+        <el-card
+          class="box-card"
+          shadow="hover"
+        >
+          
+          <div
+            class="text item"
+          >
+            Текущие задачи
+          </div>
+          <div
+            class="text item"
+          >
+            Смена пароля
+          </div>
+          
+        </el-card>
+        <el-card
+          class="box-card"
+          shadow="hover"
+        >
+          
+          <div
+            class="text item"
+          >
+            Автоматизированные рабочие места
+          </div>
+          <div
+            class="text item"
+          >
+            Филиалы/Точки обслуживания
+          </div>
+          <div
+            class="text item"
+          >
+            Параметры точек обслуживания
+          </div>
+          
+        </el-card>
+        <el-card
+          class="box-card"
+          shadow="hover"
+        >
+          
+          <div
+            class="text item"
+          >
+            Дизайн бизнес процессов
+          </div>
+          <div
+            class="text item"
+          >
+            Справочник массовой обработки
+          </div>
+          <div
+            class="text item"
+          >
+            Дизайнер вызова по расписанию
+          </div>
+          
+        </el-card>
+        
+      </el-main>
+    </el-container>
+    <div>
+      <el-footer>
+        Footer
+      </el-footer>
+    </div>
+  </el-container>
+</div>
+`;

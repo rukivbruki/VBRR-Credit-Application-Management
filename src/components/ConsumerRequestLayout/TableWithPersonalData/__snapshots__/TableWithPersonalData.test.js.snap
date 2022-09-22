@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableWithPersonalData.vue render renders correctly 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <el-table
+    data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    highlight-current-row=""
+    style="width: 100%;"
+  >
+    <el-table-column
+      type="index"
+      width="50"
+    />
+    <el-table-column
+      label="ФИО"
+      property="name"
+    />
+    <el-table-column
+      label="Дата рождения"
+      property="date"
+    />
+    <el-table-column
+      label="Тип документа"
+      property="typeOfDocument"
+    />
+    <el-table-column
+      label="Серия документа"
+      property="documentSeries"
+    />
+    <el-table-column
+      label="Номер документа"
+      property="documentNumber"
+    />
+    <el-table-column
+      label="Адресс прописки"
+      property="address"
+    />
+  </el-table>
+  <div
+    class="block"
+  >
+    <el-pagination
+      background=""
+      layout="prev, pager, next"
+      total="20"
+    />
+  </div>
+  
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedСontent.vue render renders correctly 1`] = `
+<el-main>
+  
+  <card-stub
+    links="Текущие задачи,Смена пароля"
+    name="Действия"
+  />
+  <card-stub
+    links="Автоматизированные рабочие места,Филиалы/Точки обслуживания,Параметры точек обслуживания"
+    name="Пользователи"
+  />
+  <card-stub
+    links="Дизайн бизнес процессов,Справочник массовой обработки,Дизайнер вызова по расписанию"
+    name="Процессы"
+  />
+  
+</el-main>
+`;

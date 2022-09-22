@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer.vue render renders correctly 1`] = `
+<div
+  class="el-footer-text"
+>
+  <el-footer>
+    <p>
+       Powered by © 
+      <el-link
+        href="https://www.egartech.ru/"
+      >
+        EGAR Technology
+      </el-link>
+    </p>
+  </el-footer>
+</div>
+`;

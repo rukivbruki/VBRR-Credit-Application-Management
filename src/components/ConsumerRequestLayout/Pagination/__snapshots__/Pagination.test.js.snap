@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination.vue render renders correctly 1`] = `
+<div
+  class="block"
+>
+  <el-pagination
+    background=""
+    layout="prev, pager, next"
+    total="NaN"
+  />
+</div>
+`;

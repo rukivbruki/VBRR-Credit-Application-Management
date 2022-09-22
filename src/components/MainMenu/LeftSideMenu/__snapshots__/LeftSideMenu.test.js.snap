@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeftSideMenu.vue render renders correctly 1`] = `
+<el-aside>
+  <el-tabs
+    stretch="true"
+    tab-position="left"
+    type="border-card"
+  >
+    <el-tab-pane
+      label="Действия, пользователи, процессы"
+    />
+    <el-tab-pane
+      label="Представления, данные, файлы"
+    />
+    <el-tab-pane
+      label="Прочее, обслуживание, субъекты"
+    />
+    <el-tab-pane
+      label="Кредитование, досье"
+    />
+    <el-tab-pane
+      label="Нумерация договора"
+    />
+  </el-tabs>
+</el-aside>
+`;

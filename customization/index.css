@@ -1,0 +1,57 @@
+@import '../node_modules/element-plus/lib/theme-chalk/index.css';
+@import '../commonCss/commonStyles.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+:root {
+  --el-header-custom-background-color: rgb(51, 55, 56);
+  --el-footer-custom-background-color: rgb(51, 55, 56);
+  --el-color-primary: rgb(103, 109, 111);
+  --el-color-row-background: rgba(103, 109, 111, 0.15);
+}
+
+html {
+  font-family: Roboto, serif;
+}
+
+.el-header {
+  background-color: var(--el-header-custom-background-color);
+}
+
+.el-footer {
+  color: var(--el-header-custom-background-color);
+  background-color: var(--el-header-custom-background-color);
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  font-size: 16px;
+  background-color: rgba(255, 211, 0, 0.1);
+}
+
+.el-alert--warning.is-light .el-alert__description {
+  color: var(--el-footer-custom-background-color);
+  font-size: 15px;
+}
+
+.el-table {
+  --el-table-current-row-background-color: var(--el-color-row-background);
+}
+
+.el-card__header {
+  color: #000000;
+  background: var(--el-color-row-background);
+  border-bottom: 4px solid rgb(173 173 173);
+}
+
+.el-step__title.is-wait {
+  color: #898989;
+  font-weight: 600;
+}
+
+.customer-info-header {
+  background-color: var(--el-disabled-border-base);
+}
+
+.el-tabs__item.is-active.is-closable,
+.el-tabs__item.is-active {
+  background-color: #ebeef5;
+}

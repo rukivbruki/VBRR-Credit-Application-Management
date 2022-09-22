@@ -1,0 +1,6 @@
+@import '../../../../node_modules/element-plus/lib/theme-chalk/index.css';
+
+.el-pagination .btn-next .el-icon,
+.el-pagination .btn-prev .el-icon {
+  display: contents;
+}

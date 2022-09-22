@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalDataForms.vue render renders correctly 1`] = `
+<el-form
+  label-width="120px"
+  model="[object Object]"
+  style="padding-top: 20px;"
+>
+  <el-form-item
+    label="Имя"
+  >
+    <el-input
+      class="el-form-input"
+    />
+  </el-form-item>
+  <el-form-item
+    label="Фамилия"
+  >
+    <el-input
+      class="el-form-input"
+    />
+  </el-form-item>
+  <el-form-item
+    label="Отчество"
+  >
+    <el-input
+      class="el-form-input"
+    />
+  </el-form-item>
+  <el-form-item
+    label="Дата рождения"
+  >
+    <el-col
+      span="11"
+    >
+      <el-date-picker
+        placeholder="Введите дату"
+        style="width: 100%;"
+        type="date"
+      />
+    </el-col>
+  </el-form-item>
+  <el-form-item>
+    <el-button
+      style="background-color: rgb(255, 211, 0);"
+    >
+      Найти 
+    </el-button>
+  </el-form-item>
+</el-form>
+`;

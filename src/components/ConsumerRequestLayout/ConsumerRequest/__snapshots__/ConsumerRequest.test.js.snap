@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerRequest.vue render renders correctly 1`] = `
+<div>
+  <h2
+    class="el-ConsumerRequest-header"
+  >
+    Идентификация персоны
+  </h2>
+  <div
+    class="el-ConsumerRequest-warning"
+  >
+    <p
+      class="el-ConsumerRequest-warning-text"
+    >
+       ВАЖНО! Перед поиском клиента проверить персональные данные в Террасофте, передать данные в Афину. Исправления в Егаре заблокированы. 
+    </p>
+  </div>
+  <el-form
+    label-width="120px"
+    model="[object Object]"
+    style="padding-top: 20px;"
+  >
+    <el-form-item
+      label="Имя"
+    >
+      <el-input
+        class="el-form-input"
+      />
+    </el-form-item>
+    <el-form-item
+      label="Фамилия"
+    >
+      <el-input
+        class="el-form-input"
+      />
+    </el-form-item>
+    <el-form-item
+      label="Отчество"
+    >
+      <el-input
+        class="el-form-input"
+      />
+    </el-form-item>
+    <el-form-item
+      label="Дата рождения"
+    >
+      <el-col
+        span="11"
+      >
+        <el-date-picker
+          placeholder="Введите дату"
+          style="width: 100%;"
+          type="date"
+        />
+      </el-col>
+    </el-form-item>
+    <el-form-item>
+      <el-button
+        style="background-color: rgb(255, 211, 0);"
+      >
+        Найти 
+      </el-button>
+    </el-form-item>
+  </el-form>
+  
+  <el-table
+    data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    highlight-current-row=""
+    style="width: 100%;"
+  >
+    <el-table-column
+      type="index"
+      width="50"
+    />
+    <el-table-column
+      label="ФИО"
+      property="name"
+    />
+    <el-table-column
+      label="Дата рождения"
+      property="date"
+    />
+    <el-table-column
+      label="Тип документа"
+      property="typeOfDocument"
+    />
+    <el-table-column
+      label="Серия документа"
+      property="documentSeries"
+    />
+    <el-table-column
+      label="Номер документа"
+      property="documentNumber"
+    />
+    <el-table-column
+      label="Адресс прописки"
+      property="address"
+    />
+  </el-table>
+  <div
+    class="block"
+  >
+    <el-pagination
+      background=""
+      layout="prev, pager, next"
+      total="20"
+    />
+  </div>
+  
+  <el-form-item
+    style="padding-left: 60px;"
+  >
+    <el-button
+      style="background-color: rgb(255, 211, 0);"
+    >
+      Выбрать 
+    </el-button>
+  </el-form-item>
+</div>
+`;
