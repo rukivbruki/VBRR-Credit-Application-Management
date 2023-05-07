@@ -2,7 +2,7 @@
 
 **Installation and Usage:**
 
-To install the project dependencies, run `npm install`.
+To install the project dependencies, run `npm install` or `npm install --legacy-peer-deps` in case of any errors during the dependency installation.
 
 To run the application in development mode, use `npm run serve`.
 
